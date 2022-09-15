@@ -20,13 +20,10 @@ html{
     margin-right: auto;
     margin-bottom: 100px;
 }
-
-
 .navigation{
     height: 100%;
     display: inline-block;
 }
-
 .navigation li{
     height: 100%;
     display: inline;
@@ -34,7 +31,6 @@ html{
     padding: 130px;
 
 }
-
 .navigation li a{
     display: inline;
     vertical-align: middle;
@@ -43,21 +39,35 @@ html{
     font-size: 60px;
 }
 
+
+
+/*footer styling*/
+.footer{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-decoration: none;
+    width: 10%;
+    margin-top: 30%;
+
+}
+.footer:hover{
+    text-decoration: underline;
+}
+
+
+
 /*font styling*/
 h1{
     display: inline;
     font-family: 'DM Serif Display Regular', serif;
     font-size: 55px;
 }
-
-
 h2{
     font-family: 'Qwitcher Grypen', cursive;
     font-size: 175px;
     font-weight: bold;
     text-align: center;
 }
-
 h3{
     font-family: 'Monoton', serif;
     font-size: 50px;
@@ -65,22 +75,24 @@ h3{
     font-weight: lighter;
     word-spacing: 10px;
 }
-
 p{
     font-family: 'Playfair Display', serif;
     font-size: 16px;
 }
 
-/*landing page styling*/
 
+
+
+/*landing page styling*/
 .landing_page_text{
     text-align: center;
     padding-bottom: 10px;
-    height: 225px;
-    width: 800px;
+    height: 190px;
+    width: 780px;
     background-color: #b98e81 ;
-    background-size: 800px ;
+    background-size: 800px;
 }
+
 
 
 
@@ -89,12 +101,10 @@ p{
     display: inline-block;
     height: auto;
 }
-
 .real_images li{ /*full image*/
     display: inline-block;
     height:auto;
 }
-
 .real_images li img{ /*border*/
     display: inline-block;
     vertical-align: middle;
@@ -108,7 +118,6 @@ p{
     height: 300px;
 
 }
-
 h4{
     display: inline-block;
     font-family: 'Playfair', serif;
@@ -116,9 +125,8 @@ h4{
     text-align: center;
     width: 200px;
     line-height: normal;
+
 }
-
-
 .image_1{
     display: inline-block;
     margin-left: 420px;
@@ -132,25 +140,28 @@ h4{
 .image_3{
     display: inline-block;
     padding-left: 40px;
-
-    
 }
+
+
 
 /*hobby page styling*/
 .hobby_page_text{
     float: left;
     margin-left: 10px;
-    margin-top: 230px;
-    height: 400px;
+    margin-top: 270px;
+    height: 300px;
     width: 600px;
     background-color: #b98e81 ;
     background-size: 800px ;
     text-align: center;
+    vertical-align: middle;
+    padding-top: 30px;
+    
 }
 
+
+
 /*image styling hobby page*/
-
-
 .hobby_images li img{ /*border*/
     float: right;
     height: auto;
@@ -168,10 +179,7 @@ h5{
     line-height: normal;
 
 }
-
-
 .hobby_image_1{
-
     margin-right: 5px;
 }
 .hobby_image_2{
@@ -185,21 +193,24 @@ h5{
 }
 
 
+
 /*about page text styling*/
 .about_page_text{
     float: right;
-    margin-right: 150px;
-    margin-top: 50px;
+    margin-right: 100px;
+    margin-top: 40px;
     margin-left: 20px;
-    height: 400px;
+    height: 450px;
     width: 700px;
     background-color: #b98e81 ;
     background-size: 1000px ;
     text-align: center;
 }
 
-/*about page image styling*/
 
+
+
+/*about page image styling*/
 img{
     border-radius: 45%;
     width: 500px;
@@ -207,7 +218,6 @@ img{
     font-family: 'Playfair Display', serif;
     margin-right: 200px;
     display: inline-block;
-
 }
 .about_image{
     float: left;
@@ -222,4 +232,15 @@ img{
     max-width: 600px;
     width: 500px;
     height: 450px;
+}
+.link{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: right;
+    width: fit-content;
+    margin-right: 350px;
+}
+.link:hover{
+    text-decoration: underline;
 }
