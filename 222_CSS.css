@@ -37,8 +37,13 @@ html{
     height: 100%;
     color: #ad6457;
     font-size: 60px;
+    text-shadow: 1px 1px 4px black;
 }
 
+.navigation li a:hover{
+    text-decoration: underline;
+
+}
 
 
 /*footer styling*/
@@ -48,6 +53,8 @@ html{
     text-decoration: none;
     width: 10%;
     margin-top: 30%;
+    bottom: 0;
+    padding-bottom: 0;
 
 }
 .footer:hover{
@@ -62,6 +69,8 @@ h1{
     font-family: 'DM Serif Display Regular', serif;
     font-size: 55px;
 }
+
+
 h2{
     font-family: 'Qwitcher Grypen', cursive;
     font-size: 175px;
@@ -146,50 +155,58 @@ h4{
 
 /*hobby page styling*/
 .hobby_page_text{
-    float: left;
-    margin-left: 10px;
-    margin-top: 270px;
-    height: 300px;
-    width: 600px;
+    float: right;
+    margin-right: 20px;
+    height: 350px;
+    width: 700px;
     background-color: #b98e81 ;
-    background-size: 800px ;
+    background-size: 900px ;
     text-align: center;
     vertical-align: middle;
     padding-top: 30px;
     
 }
 
+h6{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    word-spacing: 5px;
+}
 
 
 /*image styling hobby page*/
 .hobby_images li img{ /*border*/
-    float: right;
+    float: left;
     height: auto;
     border: #000400;
     border-radius: 8px;
     border-style: solid;
-    margin-right: 50px;
-    width: 400px;
-    height: 400px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
 }
 h5{
-    float: right;
+    float: left;
     font-family: 'Playfair', serif;
-    width: 400px;
+    width: 200px;
     line-height: normal;
-
+    margin-left: 10px;
 }
 .hobby_image_1{
-    margin-right: 5px;
+    display: inline-block;
+    float: left;
+    padding: 5px;
 }
 .hobby_image_2{
-    margin-top: -200px;
-    margin-right: 450px;
+    display: inline-block;
+    float: left;
+    padding: 5px;
 }
 .hobby_image_3{
-    margin-top: -200px;
-    margin-right: 5px;
-    margin-left: 1000px;
+    display: inline-block;
+    float: left;
+    padding: 5px;
 }
 
 
